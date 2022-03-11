@@ -1,57 +1,57 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "name": "Renzil D'Souza",
+    "label": "Entrepreneur",
+    "picture": "https://renzil.github.io/images/renzil.png",
+    "email": "renzil@gmail.com",
+    "phone": "",
+    "website": "https://renzil.live",
+    "summary": "I have 13+ years of software engineering and management experience. I'm passionate about building delightful products, marketing and selling them, and in the process growing high-performing teams.\n\nAt Adobe, my teams have built multiple ver1.0 desktop (Win/Mac) apps with backend services. I am a former recipient of the Adobe Outstanding Young Engineer Award.\n\nAs an entrepreneur I have dabbled in marketing and design consulting, and built commercial chatbots. I am currently writing about my journey and helping students discover opportunities in tech.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "postalCode": "",
+      "city": "Bengaluru",
+      "countryCode": "India",
+      "region": ""
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "renzil",
+        "url": "https://github.com/renzil"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "renzil",
+        "url": "https://linkedin.com/in/renzil"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "renzil",
+        "url": "https://twitter.com/renzil"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "renzild",
+        "url": "https://instagram.com/renzild"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "mentorship",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "tech",
+        "careers"
       ]
     },
     {
-      "name": "data mining",
+      "name": "entrepreneurship",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "technology",
       "keywords": [
       ]
     }
@@ -61,33 +61,34 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
         "C++",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "JS",
+        "Python",
+        "ReactJS",
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Node",
+        "Express",
+        "GitHub",
+        "Docker",
+        "Netlify",
+        "AWS",
+        "DigitalOcean",
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "institution": "National Institute of Technology, Calicut",
+      "area": "Computer Science",
+      "studyType": "B. Tech.",
+      "startDate": "2005-07-01",
+      "endDate": "2009-05-15",
       "gpa": "",
       "courses": [
       ]
@@ -95,69 +96,84 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "Self-employed",
+      "position": "Entrepreneur",
+      "website": "http://renzil.com",
+      "startDate": "2018-07-12",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Taking a break to try out different ideas and rediscover myself",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Started a newsletter for college students to discover opportunities in tech (renzil.substack.com)",
+        "Built commercial chatbots using a stack of Python/Rasa/Docker/DigitalOcean (rappo.ai, t.me/Doctor70_bot)",
+        "Branding, design and marketing consulting (australiving.com)",
+        "Website to find a hospital bed during Covid emergency (hospitaltracker.in)",
+        "Market validation for sustainable apparel idea through Google/Facebook ads (rootelements.in)"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Adobe",
+      "position": "Engineering Manager",
+      "website": "https://helpx.adobe.com/captivate-prime/learners/adobe-captivate-prime-app-for-desktop.html",
+      "startDate": "2018-03-01",
+      "endDate": "2019-07-12",
+      "summary": "Responsible for delivery of companion apps (desktop/mobile) for Adobe Captivate Prime LMS",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Responsible for growth and development of a team of 5 junior developers",
+        "Shipped a ver1.0 desktop product with a web stack (Electron/Node/Ember)",
+        "Upskilled the team, built and shipped in a span of 12 months",
+        "Promoted 2 developers to senior positions"
+      ]
+    },
+    {
+      "company": "Adobe",
+      "position": "Computer Scientist",
+      "website": "https://en.wikipedia.org/wiki/Adobe_Presenter_Video_Express",
+      "startDate": "2012-02-01",
+      "endDate": "2018-03-01",
+      "summary": "Team-lead and project-lead for Adobe Presenter Video Express engineering - a desktop screen+webcam video capture and editing tool",
+      "highlights": [
+        "Invented 3 patents in video segmentation, matting and compositing (US 9786055, US 10546557, US 10621777)",
+        "Won the Adobe Outstanding Young Engineer Award 2016 (OYEA) - only engineer in Adobe Bangalore"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Technovation Challenge",
+      "website": "https://technovationchallenge.org/",
+      "position": "Mentor",
+      "startDate": "2016-12-01",
+      "endDate": "2017-04-01",
+      "summary": "I co-mentored a team of 8th grade school girls to complete the Technovation Challenge",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "I taught these students how to code and build their first mobile app",
       ]
     },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Synthesis of Composite Images Having Virtual Backgrounds (US10621777B2)",
+      "date": "2020",
+      "awarder": "USPTO",
+      "summary": "Technologies for synthesis of virtual background are disclosed. In various embodiments, a foreground image is segmented from an image. Meanwhile, one or more virtual background images are identified based on the characteristics of the image, such as the orientation of the device that captured the image. Subsequently, the foreground image and the background image are synthesized into a composite image."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Removing Overlays from a Screen to Separately Record Screens and Overlays in a Digital Medium Environment (US10546557B2)",
+      "date": "2020",
+      "awarder": "USPTO",
+      "summary": "Overlay and screen recording techniques are described that enables separate recordings of a screen and one or more overlays that were displayed on the screen during recording. In one example, pixel values of an overlay are blended with pixel values of a screen to paint the overlay onto the screen in a transparent manner that is imperceptible to the human eye but allows for original screen pixel values to be recovered from areas of the screen that were visually occluded by the overlay. This enables a user to display recording controls and visual cues on their screen without having to worry about the overlay visually occluding any screen content during the recording. One or both of the separately recorded screen and overlay streams can then be output for playback to enable viewing of the individual streams without loss in quality or content of the individual streams."
+    },
+    {
+      "title": "Method and apparatus for real-time matting using local color estimation and propagation (US9786055B1)",
+      "date": "2017",
+      "awarder": "USPTO",
+      "summary": "Embodiments of the present invention relate to facilitating real-time matting using local color estimation and propagation. As described in embodiments herein, an unknown region is estimated based on a set of received boundary points (a zero-level contour that separates the foreground object from the background) and additional contours based on increasing distances from the zero-level contour. Pixels inside the unknown region are often a blend of both foreground and background colors (for example, thin strands of hair). By applying the technique described herein, the background and foreground colors for each pixel in the unknown region can be estimated and utilized to propagate the foreground and background colors to the appropriate contours in the unknown region. The estimated background and foreground colors may also be utilized to determine the opacity and true background and foreground colors for each pixel in the unknown region which results in an image matted in real-time."
+    },
+    {
+      "title": "Outstanding Young Engineer 2016",
+      "date": "2016",
+      "awarder": "Adobe",
+      "summary": "Outstanding Young Engineers Award is given by Adobe India to a select few (3-4) annually across India to recognize outstanding contributions to engineering."
     }
   ],
   "references": [
