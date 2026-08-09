@@ -6,7 +6,7 @@
     "email": "renzil@gmail.com",
     "phone": "",
     "website": "https://renzil.com",
-    "summary": "I have 13+ years of software engineering and management experience. I'm passionate about building delightful products, marketing and selling them, and in the process growing high-performing teams.\n\nAt Adobe, my teams have built multiple ver1.0 desktop (Win/Mac) apps with backend services. I am a former recipient of the Adobe Outstanding Young Engineer Award.\n\nAs an entrepreneur I have dabbled in marketing and design consulting, and built commercial chatbots. I am currently writing about my journey and helping students discover opportunities in tech.",
+    "summary": "I have 17+ years of software engineering and management experience, most recently as a founding engineer of Slixta [https://slixta.com] - a SaaS marketing automation platform. I'm passionate about building delightful products, marketing and selling them, and in the process growing high-performing teams.\n\nAt Adobe, my teams have built multiple ver1.0 desktop (Win/Mac) apps with backend services. I am a former recipient of the Adobe Outstanding Young Engineer Award.\n\nAs an entrepreneur I have dabbled in marketing and design consulting, and built commercial chatbots. I have also helped students discover opportunities in tech.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -96,11 +96,24 @@
   ],
   "work": [
     {
+      "company": "Slixta",
+      "position": "Founding Engineer / Co-Founder",
+      "website": "http://www.slixta.com",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "summary": "Founding engineer of a SaaS marketing automation platform",
+      "highlights": [
+        "Architected and built multiple systems including a full-featured CRM, email and WhatsApp campaigns, automations and AI content generation",
+        "Manage the customer success team for large enterprise clients with over 200 daily active users",
+        "Responsible for continuous up-time of a multi-tenanted live production system handling millions of daily transactions across thousands of users"
+      ]
+    },
+    {
       "company": "Self-employed",
       "position": "Entrepreneur",
       "website": "http://renzil.com",
       "startDate": "2018-07-12",
-      "endDate": "Present",
+      "endDate": "2022-12-31",
       "summary": "Taking a break to try out different ideas and rediscover myself",
       "highlights": [
         "Started a newsletter for college students to discover opportunities in tech (renzil.substack.com)",
