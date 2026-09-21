@@ -2,21 +2,73 @@
 # Provide front matter so Jekyll processes this file as SASS.
 ---
 
-// Put your custom CSS here if you want to override the defaults.
-// Here are some common customizations for colors
+@charset "utf-8";
 
-// Customize the background color
-body {
-  // background-color: #f2f2f2;;
+:root {
+  --ink: #1d1d1b;
+  --muted: #777773;
+  --line: #deded9;
+  --paper: #f8f8f6;
+  --green: #4d805d;
+  --sans: "DM Sans", sans-serif;
+  --mono: "DM Mono", monospace;
 }
 
-// Customize the menubar color
-.ui.menu {
-  // background: $background-start;
+.portfolio-home {
+  min-height: 100vh;
+  color: var(--ink);
+  background: var(--paper);
+  font: 16px/1.65 var(--sans);
+  -webkit-font-smoothing: antialiased;
 }
 
-// Customize the home page icon colors
-.icon-color {
-  // color: silver;
+.portfolio-home *, .portfolio-home *::before, .portfolio-home *::after { box-sizing: border-box; }
+.portfolio-home a { color: inherit; }
+.portfolio-home .shell { width: min(920px, calc(100% - 48px)); margin: auto; }
+.portfolio-header { display: flex; justify-content: space-between; align-items: center; padding: 30px 0; border-bottom: 1px solid var(--line); }
+.portfolio-home .wordmark, .portfolio-home .meta, .portfolio-home nav { font: 12px var(--mono); }
+.portfolio-home .wordmark { text-decoration: none; }
+.portfolio-home .wordmark span, .portfolio-home nav a:hover, .portfolio-home .links a:hover { color: var(--green); }
+.portfolio-home nav { display: flex; gap: 24px; }
+.portfolio-home nav a { color: var(--muted); text-decoration: none; }
+.portfolio-hero { padding: 82px 0 0; }
+.portfolio-home .prompt, .portfolio-home .section-label { color: var(--muted); font: 12px var(--mono); }
+.portfolio-home .prompt { margin: 0 0 25px; }
+.portfolio-home h1 { max-width: 690px; margin: 0 0 22px; font-size: clamp(48px, 8vw, 86px); line-height: .98; letter-spacing: -.085em; }
+.portfolio-home .lead { max-width: 540px; margin: 0; color: #555550; font-size: 19px; line-height: 1.65; }
+.portfolio-home .status { display: flex; align-items: center; gap: 9px; margin-top: 34px; color: var(--green); font: 12px var(--mono); }
+.portfolio-home .status::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--green); }
+.portfolio-section { padding: 105px 0 0; }
+.portfolio-home .section-label { margin: 0 0 20px; }
+.portfolio-home .section-label::before { content: "// "; color: var(--green); }
+.experience { border-top: 1px solid var(--line); }
+.timeline { position: relative; margin-left: 8px; padding-left: 34px; border-left: 1px solid var(--line); }
+.timeline-entry { position: relative; padding: 0 0 40px; }
+.timeline-entry:last-child { padding-bottom: 0; }
+.timeline-entry::before { content: ""; position: absolute; top: 5px; left: -39px; width: 9px; height: 9px; border: 2px solid var(--paper); border-radius: 50%; background: var(--green); box-shadow: 0 0 0 1px var(--green); }
+.timeline-entry .meta { display: block; margin-bottom: 8px; color: var(--muted); }
+.timeline-entry .meta a { text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 4px; }
+.timeline-entry .meta a:hover { color: var(--green); text-decoration-color: var(--green); }
+.timeline-entry h2 { margin: 0 0 6px; font-size: 19px; letter-spacing: -.035em; }
+.timeline-entry p { max-width: 610px; margin: 0; color: #666660; }
+.timeline-entry .tagline { display: block; margin-top: 12px; color: var(--green); font: 11px var(--mono); }
+.portfolio-home .links { display: flex; flex-wrap: wrap; gap: 23px; margin-top: 33px; font: 12px var(--mono); }
+.portfolio-home .links a, .portfolio-home .contact a { text-underline-offset: 5px; }
+.portfolio-home .contact { padding-bottom: 100px; }
+.portfolio-home .contact > p:not(.section-label) { max-width: 480px; margin: 0; color: #666660; }
+.portfolio-home .contact a { display: inline-block; margin-top: 22px; font: 14px var(--mono); }
+.portfolio-footer { display: flex; justify-content: space-between; padding: 20px 0 30px; border-top: 1px solid var(--line); color: var(--muted); font: 11px var(--mono); }
+
+@media (max-width: 620px) {
+  .portfolio-home .shell { width: min(100% - 36px, 920px); }
+  .portfolio-header { padding: 23px 0; }
+  .portfolio-home nav { gap: 13px; font-size: 10px; }
+  .portfolio-home nav a:nth-child(2) { display: none; }
+  .portfolio-hero { padding-top: 62px; }
+  .portfolio-home h1 { font-size: clamp(48px, 16vw, 76px); }
+  .portfolio-home .lead { font-size: 17px; }
+  .portfolio-section { padding-top: 76px; }
+  .portfolio-home .contact { padding-bottom: 75px; }
+  .portfolio-footer { gap: 15px; align-items: flex-start; flex-direction: column; }
 }
 

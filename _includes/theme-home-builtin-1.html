@@ -1,54 +1,53 @@
-<!-- Home page design with small circular image bisecting card. -->
+<div class="portfolio-home">
+  <header class="portfolio-header shell">
+    <a class="wordmark" href="{{ site.baseurl }}/">renzil<span>/</span>com</a>
+    <nav aria-label="Main navigation">
+      <a href="#experience">experience</a>
+      <a href="https://www.linkedin.com/in/renzil/" target="_blank" rel="noreferrer">linkedin ↗</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </header>
 
-{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
-{% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
-{% assign num_essays = essay_pages.size %}
-{% assign num_projects = project_pages.size %}
+  <main class="shell">
+    <section class="portfolio-hero">
+      <p class="prompt">~/renzil/about</p>
+      <h1>Hi, I’m Renzil.</h1>
+      <p class="lead">Founding engineer with 17+ years across SaaS product development, architecture, and production ownership. I work on the difficult parts: finding the MVP, debugging what breaks, and making the product better.</p>
+      <p class="status">open to good problems</p>
+    </section>
 
-<div style="height: 100%; margin-top: -75px" class="ui middle aligned grid ">
-
-  <div class="column">
-
-    <div style="position: relative; top: 75px; z-index: 1" class="ui fluid centered small circular image">
-      <img src="{{ site.data.bio.basics.picture }}">
-    </div>
-
-
-    <div style="max-width: 500px; padding-top: 75px; margin-top: 0px" class="ui fluid centered card">
-
-      <div class="center aligned content">
-        <span class="header">{{ site.data.bio.basics.name }}</span>
-        <div class="meta">
-          <span class="date">{{ site.data.bio.basics.label }}</span>
-        </div>
-        <div class="left aligned description">
-          {{ site.data.bio.basics.summary }}
-        </div>
+    <section id="experience" class="portfolio-section experience">
+      <p class="section-label">selected experience</p>
+      <div class="timeline">
+        <article class="timeline-entry">
+          <span class="meta"><a href="https://slixta.com" target="_blank" rel="noreferrer">Slixta</a> · Founding Engineer</span>
+          <h2>Building the product and owning what happens after launch.</h2>
+          <p>Founding-engineer work across SaaS product development, architecture, production ownership and customer success. I built Slixta from the ground up, from a CMS into a fully-featured marketing automation platform serving millions of transactions per week.</p>
+          <span class="tagline">product · architecture · production</span>
+        </article>
+        <article class="timeline-entry">
+          <span class="meta"><a href="https://en.wikipedia.org/wiki/Adobe_Presenter_Video_Express" target="_blank" rel="noreferrer">Adobe</a> · Engineering Manager</span>
+          <h2>Engineering innovation at a large organisation.</h2>
+          <p>10+ years of experience shipping desktop and cloud enterprise software, leading research and development for multiple patented technologies and product releases.</p>
+          <span class="tagline">systems · scale · product thinking</span>
+        </article>
       </div>
-      <div class="center aligned content">
-        <div class="description">
-          Interests:
-          {% for interest in site.data.bio.interests %}
-            {{ interest.name }}{% if forloop.last != true %}, {% endif %}
-          {% endfor %}
+      <div class="links">
+        <a href="https://www.linkedin.com/in/renzil/" target="_blank" rel="noreferrer">linkedin ↗</a>
+        <a href="#contact">get in touch ↓</a>
+        <a href="{{ site.baseurl }}/projects/">selected projects ↗</a>
+      </div>
+    </section>
 
-        </div>
-      </div>
-      <div class="center aligned extra content">
-        {% include home-network-links.html %}
-      </div>
-      <div class="center aligned content">
-        <a href="{{ site.baseurl}}/projects/">
-          <button class="ui basic button">Projects ({{ num_projects }})</button>
-        </a>
-        <!--a href="{{ site.baseurl}}/essays/">
-          <button class="ui basic button">Essays ({{ num_essays }})</button>
-        </a-->
-        <a href="{{ site.baseurl}}/bio/">
-          <button class="ui basic button">{{ site.bio-page-label }}</button>
-        </a>
-      </div>
-    </div>
-  </div>
+    <section id="contact" class="portfolio-section contact">
+      <p class="section-label">contact</p>
+      <p>I’m open to conversations about founding-engineer roles, early product work, and ambitious ideas that need a technical partner.</p>
+      <a href="mailto:renzil@gmail.com">renzil@gmail.com ↗</a>
+    </section>
+  </main>
 
+  <footer class="portfolio-footer shell">
+    <span>© {{ 'now' | date: "%Y" }} Renzil</span>
+    <span>open to good problems</span>
+  </footer>
 </div>
