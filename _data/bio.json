@@ -42,7 +42,7 @@
     "headline": "Hi, I’m Renzil.",
     "intro": "Founding engineer with 17+ years across SaaS product development, architecture, and production ownership. I work on the difficult parts: building the MVP, designing scalable architecture, maintaining production and retaining customers.",
     "status": "open to good problems",
-    "contactIntro": "I’m open to conversations about founding-engineer roles, early product work, and ambitious ideas that need a technical partner.",
+    "contactIntro": "I’m open to conversations about founding-engineer or senior engineering roles, and ambitious ideas that need a technical partner.",
     "workLabel": "work",
     "awardsLabel": "awards & patents",
     "projectsLabel": "selected projects",
@@ -124,7 +124,7 @@
       "position": "Entrepreneur",
       "startDate": "2019-07-12",
       "endDate": "2023-01-01",
-      "summary": "Taking a break to try out different ideas and rediscover myself",
+      "summary": "Experimentation and personal growth",
       "highlights": [
         "Software engineering consulting for multiple early stage startups",
         "Teaching students to build production websites and helping them discover opportunities in tech",
@@ -138,17 +138,16 @@
       "company": "Adobe",
       "position": "Engineering Manager & Computer Scientist",
       "website": "https://www.adobe.com/",
-      "links": [
-        {
-          "text": "Adobe Presenter Video Express",
-          "url": "https://en.wikipedia.org/wiki/Adobe_Presenter_Video_Express"
-        }
-      ],
       "startDate": "2009-01-01",
       "endDate": "2019-07-12",
       "summary": "Leading teams and inventing the next generation of Adobe desktop and cloud products",
       "highlights": [
-        "Led engineering for Adobe Presenter Video Express, a desktop screen and webcam video capture and editing tool",
+        {
+          "text": "Led engineering for ",
+          "linkText": "Adobe Presenter Video Express",
+          "url": "https://en.wikipedia.org/wiki/Adobe_Presenter_Video_Express",
+          "suffix": ", a desktop screen and webcam video capture and editing tool"
+        },
         "Invented 3 patents in video segmentation, matting and compositing (US 9786055, US 10546557, US 10621777)",
         "Won the Adobe Outstanding Young Engineer Award 2016 (OYEA), as the only engineer in Adobe Bangalore"
       ]

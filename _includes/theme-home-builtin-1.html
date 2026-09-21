@@ -25,18 +25,15 @@
         {% for role in site.data.bio.work %}
         <article class="timeline-entry">
           <span class="meta">
-            {% if role.website %}<a href="{{ role.website }}" target="_blank" rel="noreferrer">{{ role.company }}</a>{% else %}{{ role.company }}{% endif %} · {{ role.position }}
+            {% if role.website %}<a href="{{ role.website }}" target="_blank" rel="noreferrer">{{ role.company }} ↗</a>{% else %}{{ role.company }}{% endif %} · {{ role.position }}
           </span>
+          <span class="tagline">{{ role.startDate | date: "%Y" }} — {{ role.endDate | date: "%Y" }}</span>
           <h2>{{ role.summary }}</h2>
-          {% for link in role.links %}
-          <p class="additional-line"><a href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.text }} ↗</a></p>
-          {% endfor %}
           <ul class="detail-list">
             {% for highlight in role.highlights %}
-            <li>{% if highlight.text %}{{ highlight.text }}<a href="{{ highlight.url }}" target="_blank" rel="noreferrer">{{ highlight.linkText }}</a>{{ highlight.suffix }}{% else %}{{ highlight }}{% endif %}</li>
+            <li>{% if highlight.text %}{{ highlight.text }}<a href="{{ highlight.url }}" target="_blank" rel="noreferrer">{{ highlight.linkText }} ↗</a>{{ highlight.suffix }}{% else %}{{ highlight }}{% endif %}</li>
             {% endfor %}
           </ul>
-          <span class="tagline">{{ role.startDate | date: "%Y" }} — {{ role.endDate | date: "%Y" }}</span>
         </article>
         {% endfor %}
       </div>
