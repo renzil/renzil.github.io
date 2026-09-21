@@ -1,8 +1,15 @@
 ---
-layout: projects
+layout: portfolio-page
 ---
 
-<div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
- <h1>{{ page.title }}</h1>
- {{ content }}
-</div>
+<article class="project-page-content">
+	<section class="portfolio-page-intro">
+		<p class="prompt">~/renzil/projects/{{ page.title | slugify }}</p>
+		<p class="meta">{{ page.date | date: "%Y" }} · {% for label in page.labels %}{{ label }}{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
+		<h1>{{ page.title }}</h1>
+		<p class="lead">{{ page.summary }}</p>
+	</section>
+	<section class="portfolio-section project-body">
+		{{ content }}
+	</section>
+</article>

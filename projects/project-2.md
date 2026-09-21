@@ -6,14 +6,14 @@ title: Hospital Tracker
 permalink: projects/hospital-tracker
 # All dates must be YYYY-MM-DD format!
 date: 2020-07-17
+external_url: https://github.com/renzil/covid-map
 labels:
   - HTML/CSS/JS
   - Google APIs (Maps, Geocoding, Sheets, Firebase)
   - Netlify CMS
 summary: A website to find the nearest COVID bed in an emergency situation.
+description: During the peak of the pandemic, I turned the government’s hospital list into a map with nearby facilities and live bed availability. The project began as a weekend prototype, brought together a volunteer team, and helped make urgent information easier to search.
 ---
-
-<img class="ui medium right floated rounded image" src="../images/hospital-tracker-home.jpg">
 
 In 2020 when COVID was at its peak, it was very difficult to find hospital beds across India. I live in Bangalore and the situation here was also pretty bad. To help citizens, the government had published a list of hospitals that were treating COVID along with their contact details. This list was tedious to search in an emergency, and did not contain the critical information of hospital bed availability.
 

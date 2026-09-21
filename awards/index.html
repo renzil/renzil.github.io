@@ -1,0 +1,29 @@
+---
+layout: portfolio-page
+title: Awards & Patents
+permalink: /awards/
+---
+
+<section class="portfolio-page-intro">
+  <p class="prompt">~/renzil/awards</p>
+  <h1>Recognition and research.</h1>
+  <p class="lead">Patents and awards from years spent making complex visual and software systems useful.</p>
+</section>
+
+<section class="portfolio-section awards-page-section">
+  <div class="award-list">
+    {% for award in site.data.bio.awards %}
+    <article class="award-entry">
+      <span class="meta">{{ award.date }} · {{ award.awarder }}</span>
+        <h2>
+          {% if award.url %}
+          <a href="{{ award.url }}" target="_blank" rel="noreferrer">{{ award.title }} ↗</a>
+          {% else %}
+          {{ award.title }}
+          {% endif %}
+        </h2>
+      <p>{{ award.summary }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>

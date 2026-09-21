@@ -1,5 +1,24 @@
 ---
-layout: projects
+layout: portfolio-page
+title: Projects
+permalink: /projects/
 ---
 
-{% include {{ site.theme-projects }} %}
+<section class="portfolio-page-intro">
+  <p class="prompt">~/renzil/projects</p>
+  <h1>Things I’ve built.</h1>
+  <p class="lead">Products, experiments, and useful ideas from my time as an engineer and entrepreneur.</p>
+</section>
+
+<section class="portfolio-section projects-page-section">
+  <div class="project-list">
+    {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" | sort: "date" | reverse %}
+    {% for project in project_pages %}
+    <article class="project-entry">
+      <span class="meta">{{ project.date | date: "%Y" }} · {% for label in project.labels %}{{ label }}{% unless forloop.last %} · {% endunless %}{% endfor %}</span>
+      <h2><a href="{{ project.external_url }}" target="_blank" rel="noreferrer">{{ project.title }} <span aria-hidden="true">↗</span></a></h2>
+      <p>{{ project.description }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>

@@ -37,6 +37,17 @@
       }
     ]
   },
+  "portfolio": {
+    "path": "~/renzil/about",
+    "headline": "Hi, I’m Renzil.",
+    "intro": "Founding engineer with 17+ years across SaaS product development, architecture, and production ownership. I work on the difficult parts: building the MVP, designing scalable architecture, maintaining production and retaining customers.",
+    "status": "open to good problems",
+    "contactIntro": "I’m open to conversations about founding-engineer roles, early product work, and ambitious ideas that need a technical partner.",
+    "workLabel": "work",
+    "awardsLabel": "awards & patents",
+    "projectsLabel": "selected projects",
+    "contactLabel": "contact"
+  },
   "interests": [
     {
       "name": "mentorship",
@@ -65,7 +76,7 @@
         "Java",
         "JS",
         "Python",
-        "ReactJS",
+        "ReactJS"
       ]
     },
     {
@@ -78,7 +89,7 @@
         "Docker",
         "Netlify",
         "AWS",
-        "DigitalOcean",
+        "DigitalOcean"
       ]
     }
   ],
@@ -104,49 +115,42 @@
       "summary": "Founding engineer of a SaaS marketing automation platform",
       "highlights": [
         "Architected and built multiple systems including a full-featured CRM, email and WhatsApp campaigns, automations and AI content generation",
-        "Manage the customer success team for large enterprise clients with over 200 daily active users",
+        "Manage the customer success team for large enterprise clients with hundreds of daily active users",
         "Responsible for continuous up-time of a multi-tenanted live production system handling millions of daily transactions across thousands of users"
-      ]
+        ],
     },
     {
       "company": "Self-employed",
       "position": "Entrepreneur",
-      "website": "http://renzil.com",
-      "startDate": "2018-07-12",
-      "endDate": "2022-12-31",
+      "startDate": "2019-07-12",
+      "endDate": "2023-01-01",
       "summary": "Taking a break to try out different ideas and rediscover myself",
       "highlights": [
-        "Started a newsletter for college students to discover opportunities in tech (renzil.substack.com)",
-        "Built commercial chatbots using a stack of Python/Rasa/Docker/DigitalOcean (rappo.ai, t.me/Doctor70_bot)",
-        "Branding, design and marketing consulting (australiving.com)",
-        "Website to find a hospital bed during Covid emergency (hospitaltracker.in)",
-        "Market validation for sustainable apparel idea through Google/Facebook ads (rootelements.in)"
+        "Software engineering consulting for multiple early stage startups",
+        "Teaching students to build production websites and helping them discover opportunities in tech",
+        "Built commercial chatbots using Python, Rasa, Docker and DigitalOcean",
+        "Branding, design and marketing consulting",
+        "Built a website to find a hospital bed during the Covid emergency",
+        "Market validation for a sustainable apparel idea through Google and Facebook ads"
       ]
     },
     {
       "company": "Adobe",
-      "position": "Engineering Manager",
-      "website": "https://helpx.adobe.com/captivate-prime/learners/adobe-captivate-prime-app-for-desktop.html",
-      "startDate": "2018-03-01",
+      "position": "Engineering Manager & Computer Scientist",
+      "website": "https://www.adobe.com/",
+      "links": [
+        {
+          "text": "Adobe Presenter Video Express",
+          "url": "https://en.wikipedia.org/wiki/Adobe_Presenter_Video_Express"
+        }
+      ],
+      "startDate": "2009-01-01",
       "endDate": "2019-07-12",
-      "summary": "Responsible for delivery of companion apps (desktop/mobile) for Adobe Captivate Prime LMS",
+      "summary": "Leading teams and inventing the next generation of Adobe desktop and cloud products",
       "highlights": [
-        "Responsible for growth and development of a team of 5 junior developers",
-        "Shipped a ver1.0 desktop product with a web stack (Electron/Node/Ember)",
-        "Upskilled the team, built and shipped in a span of 12 months",
-        "Promoted 2 developers to senior positions"
-      ]
-    },
-    {
-      "company": "Adobe",
-      "position": "Computer Scientist",
-      "website": "https://en.wikipedia.org/wiki/Adobe_Presenter_Video_Express",
-      "startDate": "2012-02-01",
-      "endDate": "2018-03-01",
-      "summary": "Team-lead and project-lead for Adobe Presenter Video Express engineering - a desktop screen+webcam video capture and editing tool",
-      "highlights": [
+        "Led engineering for Adobe Presenter Video Express, a desktop screen and webcam video capture and editing tool",
         "Invented 3 patents in video segmentation, matting and compositing (US 9786055, US 10546557, US 10621777)",
-        "Won the Adobe Outstanding Young Engineer Award 2016 (OYEA) - only engineer in Adobe Bangalore"
+        "Won the Adobe Outstanding Young Engineer Award 2016 (OYEA), as the only engineer in Adobe Bangalore"
       ]
     }
   ],
@@ -161,26 +165,29 @@
       "highlights": [
         "I taught these students how to code and build their first mobile app",
       ]
-    },
+    }
   ],
   "awards": [
     {
       "title": "Synthesis of Composite Images Having Virtual Backgrounds (US10621777B2)",
       "date": "2020",
       "awarder": "USPTO",
-      "summary": "Technologies for synthesis of virtual background are disclosed. In various embodiments, a foreground image is segmented from an image. Meanwhile, one or more virtual background images are identified based on the characteristics of the image, such as the orientation of the device that captured the image. Subsequently, the foreground image and the background image are synthesized into a composite image."
+      "url": "https://patents.google.com/patent/US10621777B2",
+      "summary": "A method for separating a person from the original background and placing them into a new virtual background in real time."
     },
     {
       "title": "Removing Overlays from a Screen to Separately Record Screens and Overlays in a Digital Medium Environment (US10546557B2)",
       "date": "2020",
       "awarder": "USPTO",
-      "summary": "Overlay and screen recording techniques are described that enables separate recordings of a screen and one or more overlays that were displayed on the screen during recording. In one example, pixel values of an overlay are blended with pixel values of a screen to paint the overlay onto the screen in a transparent manner that is imperceptible to the human eye but allows for original screen pixel values to be recovered from areas of the screen that were visually occluded by the overlay. This enables a user to display recording controls and visual cues on their screen without having to worry about the overlay visually occluding any screen content during the recording. One or both of the separately recorded screen and overlay streams can then be output for playback to enable viewing of the individual streams without loss in quality or content of the individual streams."
+      "url": "https://patents.google.com/patent/US20180137835A1",
+      "summary": "A way to record a screen and its overlays separately, so controls and annotations can be removed or edited without losing the original screen content."
     },
     {
       "title": "Method and apparatus for real-time matting using local color estimation and propagation (US9786055B1)",
       "date": "2017",
       "awarder": "USPTO",
-      "summary": "Embodiments of the present invention relate to facilitating real-time matting using local color estimation and propagation. As described in embodiments herein, an unknown region is estimated based on a set of received boundary points (a zero-level contour that separates the foreground object from the background) and additional contours based on increasing distances from the zero-level contour. Pixels inside the unknown region are often a blend of both foreground and background colors (for example, thin strands of hair). By applying the technique described herein, the background and foreground colors for each pixel in the unknown region can be estimated and utilized to propagate the foreground and background colors to the appropriate contours in the unknown region. The estimated background and foreground colors may also be utilized to determine the opacity and true background and foreground colors for each pixel in the unknown region which results in an image matted in real-time."
+      "url": "https://patents.google.com/patent/US20170287136A1",
+      "summary": "A real-time technique for separating foreground subjects from their background, including fine details such as hair, to create cleaner composites."
     },
     {
       "title": "Outstanding Young Engineer 2016",

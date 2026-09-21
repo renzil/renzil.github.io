@@ -1,0 +1,11 @@
+{% assign linkedin = site.data.bio.basics.profiles | where: "network", "linkedin" | first %}
+<header class="portfolio-header shell">
+  <a class="wordmark" href="{{ site.baseurl }}/">renzil<span>/</span>com</a>
+  <nav aria-label="Main navigation">
+    <a href="{{ site.baseurl }}/#work">work</a>
+    <a href="{{ site.baseurl }}/projects/">projects</a>
+    <a href="{{ site.baseurl }}/awards/">awards</a>
+    <a href="{{ linkedin.url }}" target="_blank" rel="noreferrer">linkedin ↗</a>
+    <a href="{{ site.baseurl }}/#contact">contact</a>
+  </nav>
+</header>
