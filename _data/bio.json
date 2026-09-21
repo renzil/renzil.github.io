@@ -40,9 +40,9 @@
   "portfolio": {
     "path": "~/renzil/about",
     "headline": "Hi, I’m Renzil.",
-    "intro": "Founding engineer with 17+ years across SaaS product development, architecture, and production ownership. I work on the difficult parts: building the MVP, designing scalable architecture, maintaining production and retaining customers.",
-    "status": "building what matters",
-    "contactIntro": "I’m open to conversations about founding-engineer or senior engineering roles, and ambitious ideas that need a technical partner.",
+    "intro": "Founding engineer with 17+ years of experience building products, teams, and businesses. I turn ambiguous problems into working software, own architecture and production, and stay close to customers from MVP to scale.",
+    "status": "product · architecture · production",
+    "contactIntro": "I’m open to conversations about founding-engineer and senior engineering roles, or ambitious products that need a technical partner.",
     "workLabel": "work",
     "awardsLabel": "awards & patents",
     "projectsLabel": "selected projects",
@@ -108,23 +108,23 @@
   "work": [
     {
       "company": "Slixta",
-      "position": "Founding Engineer / Co-Founder",
+      "position": "Founding Engineer · Co-Founder",
       "website": "http://www.slixta.com",
       "startDate": "2023-01-01",
       "endDate": "Present",
       "summary": "Founding engineer of a SaaS marketing automation platform",
       "highlights": [
-        "Architected and built multiple systems including a full-featured CRM, email and WhatsApp campaigns, automations and AI content generation",
-        "Manage the customer success team for large enterprise clients with hundreds of daily active users",
-        "Responsible for continuous up-time of a multi-tenanted live production system handling millions of daily transactions across thousands of users"
-        ],
+        "Architected and built core product systems including a full-featured CRM, email and WhatsApp campaigns, workflow automations and AI-powered content generation",
+        "Work directly with enterprise customers and manage customer success for deployments with hundreds of daily active users",
+        "Own architecture, reliability and production operations for a multi-tenant SaaS platform processing millions of daily transactions across thousands of users"
+      ]
     },
     {
       "company": "Self-employed",
       "position": "Entrepreneur",
       "startDate": "2019-07-12",
       "endDate": "2023-01-01",
-      "summary": "Experimentation and personal growth",
+      "summary": "Building products, consulting, and experimenting across technology and business",
       "highlights": [
         "Software engineering consulting for multiple early stage startups",
         "Teaching students to build production websites and helping them discover opportunities in tech",
@@ -140,7 +140,7 @@
       "website": "https://www.adobe.com/",
       "startDate": "2009-01-01",
       "endDate": "2019-07-12",
-      "summary": "Leading teams and inventing the next generation of Adobe desktop and cloud products",
+      "summary": "Engineering leadership and product development across Adobe desktop and cloud products",
       "highlights": [
         {
           "text": "Led engineering for ",
