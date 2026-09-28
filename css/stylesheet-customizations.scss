@@ -46,7 +46,7 @@
 .timeline-entry { position: relative; padding: 0 0 40px; }
 .timeline-entry:last-child { padding-bottom: 0; }
 .timeline-entry::before { content: ""; position: absolute; top: 5px; left: -39px; width: 9px; height: 9px; border: 2px solid var(--paper); border-radius: 50%; background: var(--green); box-shadow: 0 0 0 1px var(--green); }
-.timeline-entry .meta { display: block; margin-bottom: 8px; color: var(--muted); }
+.timeline-entry .meta { display: block; margin-bottom: 8px; color: var(--muted); font-size: 15px; line-height: 1.5; }
 .timeline-entry .meta a { text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 4px; }
 .timeline-entry .meta a:hover { color: var(--green); text-decoration-color: var(--green); }
 .timeline-entry h2 { margin: 0 0 6px; font-size: 19px; letter-spacing: -.035em; }
